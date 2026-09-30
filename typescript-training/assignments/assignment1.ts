@@ -9,7 +9,7 @@ console.log(`Whether a customer has placed an order: ${orderPlaced}`);
 
 //3. Person's phone number: "123-456-7890"
 let phoneNumber :string = "941-111-1221"
-console.log(` Person's phone number: ${phoneNumber}`);
+console.log(`Person's phone number: ${phoneNumber}`);
 
 
 //4. Amount of money in a customer's bank account: 1000.50
@@ -49,7 +49,7 @@ console.log(`Current year: ${year}`);
 
 //11.Number of followers on a social media platform: 1,000,000
 let followers :string = "1,000,000"
-console.log(`Current year: ${followers}`);
+console.log(`Number of followers on a social media platform: ${followers}`);
 
 
 //12.Rating of a movie: 7.5
