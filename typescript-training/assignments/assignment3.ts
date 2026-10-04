@@ -15,7 +15,7 @@ for (let mark of updatedMarks) {
     total += mark;
 }
 
-let average: number = total / updatedMarks.length;
+let average: number = total / 3;
 
 console.log("Updated Marks : ");
 for (let i = 0; i < students.length; i++) {
