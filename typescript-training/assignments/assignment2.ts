@@ -12,19 +12,14 @@ function applyForLoan(customerName:string,creditScore:number,income:number,isEmp
 if(creditScore!=null || undefined){
     switch (creditScore>0){
         case creditScore>=750 :
-            console.log(`${customerName} Your loan is approved `);
+            console.log(`${customerName}, Your loan is approved `);
                 break;
         case (creditScore >= 650 && creditScore < 750 && isEmployed && debtToIncomeRatio<=40 && income>=50000):
-            console.log(`${customerName} Your loan is approved after checks`);
+            console.log(`${customerName}, Your loan is approved after checks`);
                 break;
         default :
-            console.log(`${customerName} you are not elegible for loan`);
+            console.log(`${customerName}, you are not elegible for loan`);
                 break;
         }
     }
 }
-
-
-
-
-
